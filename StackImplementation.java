@@ -1,24 +1,24 @@
                             // Using Java Collection Frammework to implement a stack
-// import java.util.Stack;
-// public class StackImplementation{
-//     public static void main(String args[]){
+import java.util.Stack;
+public class StackImplementation{
+    public static void main(String args[]){
         
-//         Stack<Integer> stack=new Stack<>();
-//         stack.push(1);
-//         stack.push(2);
-//         stack.push(3);
-//         stack.push(4);
+        Stack<Integer> stack=new Stack<>();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        stack.push(4);
 
-//         while(!stack.isEmpty()){
-//             System.out.println(stack.pop());
-//         }
+        while(!stack.isEmpty()){
+            System.out.println(stack.pop());
+        }
 
 
-//     }
+    }
     
-// }
+}
 
-                    //Using ArrayList to implement a stack
+                    // Using ArrayList to implement a stack
 import java.util.ArrayList;
 
 public class StackImplementation {
