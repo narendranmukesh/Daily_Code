@@ -48,8 +48,6 @@ public class QueueArray
 
        }
 
-
-
     }
     public static void main(String[] args) {
         Queue q=new Queue(5);
@@ -59,11 +57,11 @@ public class QueueArray
         q.add(4);
         q.add(5);
         q.remove();
+        System.out.println(q.peek());
     
 
 
 
 
-        System.out.println(q.peek());
     }
 }
