@@ -58,10 +58,5 @@ public class QueueArray
         q.add(5);
         q.remove();
         System.out.println(q.peek());
-    
-
-
-
-
     }
 }
