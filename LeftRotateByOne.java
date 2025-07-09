@@ -1,4 +1,4 @@
-package Stacks;
+
 import java.util.Arrays;
 
 public class LeftRotateByOne {
